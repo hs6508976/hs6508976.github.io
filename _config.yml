@@ -8,7 +8,7 @@ plugins:
 
 #-------------------------------
 # General Site Settings
-title: Harry S
+title: Harry Sherratt
 description: "Hi I'm Harry, and I'm an aspiring Data Scientist.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -16,14 +16,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # About Section
 subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
-location: "London, UK"
-resume_url: /docs/resume.docx
-avatar_image: /img/profile_picture.JPG
+location: "Birmingham, UK"
+resume_url: /docs/CV_data - Harry Sherratt.pdf
+avatar_image: /img/Professional_Photo Cropped.jpg
 
 #-------------------------------
 # Contact links
-linkedln: "https://linkedln.com/#" # Add your linkedln handle
-github: "https://github.com/#"  # Add your github handle
+linkedln: "www.linkedin.com/in/harry-sherratt-321080159" # Add your linkedln handle
+github: "https://github.com/hs6508976"  # Add your github handle
 
 paginate: 6
 paginate_path: "/page/:num"
