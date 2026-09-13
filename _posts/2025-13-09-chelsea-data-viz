@@ -16,25 +16,12 @@ Chelsea were not to wait too long for their next success however, with Antonio C
 This project uses Python to sort through the data, extract their key passes, and plot heat maps, pass maps and a handy bar chart to garner Chelsea's most effective playmakers throughout the season.
 <br>
 <br>
-### Actions <a name="overview-actions"></a>
 
-For this test, as it is focused on comparing the *rates* of two groups - we applied the Chi-Square Test For Independence.  Full details of this test can be found in the dedicated section below.
 
-**Note:** Another option when comparing "rates" is a test known as the *Z-Test For Proportions*.  While, we could absolutely use this test here, we have chosen the Chi-Square Test For Independence because:
+### Results & Discussion <a name="overview-results"></a>
 
-* The resulting test statistic for both tests will be the same
-* The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
-* The Chi-Square Test can extend out to more than 2 groups - meaning the client can have one consistent approach to measuring significance
-
-From the *campaign_data* table in the client database, we isolated customers that received "Mailer 1" (low cost) and "Mailer 2" (high cost) for this campaign, and excluded customers who were in the control group.
-
-We set out our hypotheses and Acceptance Criteria for the test, as follows:
-
-**Null Hypothesis:** There is no relationship between mailer type and signup rate. They are independent.
-**Alternate Hypothesis:** There is a relationship between mailer type and signup rate. They are not independent.
-**Acceptance Criteria:** 0.05
-
-As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *signup_flag* by *mailer_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values
+Our results show that Hazard and Soler were extremely influential players for Chelsea in 2015/16.
 
 <br>
 <br>
+
